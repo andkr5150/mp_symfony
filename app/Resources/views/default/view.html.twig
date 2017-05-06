@@ -1,0 +1,32 @@
+<h1>Calculator</h1>
+(<i>{{ name }}</i>)
+<br/>
+
+
+<form action="{{ path('add') }}">
+<br/>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[0] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[1] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[2] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[3] }}</button></span>
+<br/>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[4] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[5] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[6] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[7] }}</button></span>
+<br/>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[8] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[9] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[10] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[11] }}</button></span>
+<br/>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[12] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[13] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[14] }}</button></span>
+    <span style="text-align: left"><button style=" width: 45px; height: 45px">{{ ars[15] }}</button></span>
+<br/>
+
+<p><textarea rows="1" cols="20" name="text">{{ rez }}</textarea></p>
+
+<p><input type="submit" value="Результат"></p>
+</form>
