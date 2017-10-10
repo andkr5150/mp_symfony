@@ -25,8 +25,6 @@ class DefaultController extends Controller
      */
     public function iRez(Request $request)
     {
-
-
         $name = 'Считай не ленись';
         $rez = 9;
         return $this->render('default/view.html.twig', array('name' =>$name, 'rez'=>$rez));
